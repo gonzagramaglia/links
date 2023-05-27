@@ -1,0 +1,39 @@
+ {
+    "name": "gonza",
+    "avatar": "https://pbs.twimg.com/profile_images/1622295616582832128/-_urlRSP_400x400.jpg",
+    "description": "React Developer",
+    "links": [
+        {
+            "title": "My personal website",
+            "url": "https://www.gonza.uno",
+            "image": "/website-logo.png"
+        },
+        {
+            "title": "Download my CV",
+            "url": "https://drive.google.com/",
+            "image": "/download-logo.png"
+        },
+        {
+            "title": "Let's talk",
+            "url": "https://cal.com/gonza",
+            "image": "/videocall-logo.png"
+        }
+    ],
+    "socials": [
+        {
+            "title": "Github",
+            "url": "https://github.com/gonzagramaglia",
+            "image": "/github-logo.png"
+        },
+        {
+            "title": "LinkedIn",
+            "url": "https://www.linkedin.com/in/gonzagramaglia/",
+            "image": "/linkedin-logo.png"
+        },
+        {
+            "title": "Twitter",
+            "url": "https://twitter.com/gonzagramaglia",
+            "image": "/twitter-logo.png"
+        }
+    ]
+ }
