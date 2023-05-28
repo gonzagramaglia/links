@@ -600,4 +600,11 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  #stars,
+  #stars2,
+  #stars3 {
+    display: none;
+  }
+}
 
