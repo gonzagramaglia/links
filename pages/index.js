@@ -1,11 +1,41 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import data from '../data.json'
+import React, { useState } from "react"
 import { FaGithub } from 'react-icons/fa';
+
+const Icons = () => {
+  const [isHovered, setIsHovered] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setIsHovered(index);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(null);
+  };
+
+  return (
+    <div className='flex flex-row'>
+      {data.socials.map((social, index) => (
+        <a href={social.url} target="_blank" className="hover:scale-[117%]">
+          <img
+            key={index}
+            className={`h-[50px] w-[50px] mr-2 ${isHovered === index ? 'hovered' : ''}`}
+            src={isHovered === index ? social.hover : social.image}
+            alt={social.alt}
+            onMouseEnter={ () => handleMouseEnter(index) }
+            onMouseLeave={handleMouseLeave}
+          />
+        </a>
+      ))}
+    </div>
+  );
+};
 
 function LinkCard({ url, title, image }){
   return (
-    <a href={url} target="_blank" className='flex items-center m-1 pl-2 p-1 w-[50%] rounded-xl hover:scale-105 transition-all border border-gray-300' >
+    <a href={url} target="_blank" className='flex items-center m-1 pl-2 p-1 w-[50%] rounded-xl hover:shadow-lg hover:shadow-[#20bb9a] hover:scale-105 transition-all border border-gray-300' >
       <div className='flex flex-row items-center'>
         <img src={image} className='h-[50px] w-[50px] mr-2'/>
         <h2 className='font-bold text-lg'>{title}</h2>
@@ -55,15 +85,7 @@ export default function Home() {
           )
         })}
         <div className='flex flex-row m-8'>
-        {
-          data.socials.map( social => {
-            return (
-              <a href={social.url} target="_blank" className='hover:scale-110'>
-                <img src={social.image} className='h-[50px] w-[50px] mr-2' />
-              </a>
-            )
-          })
-        }
+        <Icons />
         </div>
           <section class="wrapper">
           <div id="stars"></div>

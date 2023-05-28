@@ -23,17 +23,24 @@
         {
             "title": "Github",
             "url": "https://github.com/gonzagramaglia",
-            "image": "/github-logo.png"
+            "image": "/github-logo.png",
+            "hover": "/github-logo-hover.png",
+            "alt": "github-icon"
         },
         {
             "title": "LinkedIn",
             "url": "https://www.linkedin.com/in/gonzagramaglia/",
-            "image": "/linkedin-logo.png"
+            "image": "/linkedin-logo.png",
+            "hover": "/linkedin-logo-hover.png",
+            "alt": "linkedin-icon"
         },
         {
             "title": "Twitter",
             "url": "https://twitter.com/gonzagramaglia",
-            "image": "/twitter-logo.png"
+            "image": "/twitter-logo.png",
+            "hover": "/twitter-logo-hover.png",
+            "alt": "twitter-icon"
+
         }
     ]
  }
