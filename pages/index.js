@@ -18,9 +18,8 @@ const Icons = () => {
   return (
     <div className='flex flex-row'>
       {data.socials.map((social, index) => (
-        <a href={social.url} target="_blank" className="hover:scale-[117%]">
+        <a href={social.url} target="_blank" className="hover:scale-[117%]" key={index}>
           <img
-            key={index}
             className={`h-[50px] w-[50px] mr-2 ${isHovered === index ? 'hovered' : ''}`}
             src={isHovered === index ? social.hover : social.image}
             alt={social.alt}
