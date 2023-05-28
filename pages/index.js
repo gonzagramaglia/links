@@ -53,15 +53,15 @@ export default function Home() {
       <nav className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816]'>
           <a 
               href="https://www.gonza.uno/" 
-              className='ml-[15px] md:ml-[65px]'
+              className='ml-[20px] md:ml-[65px]'
               target="_blank"
 
           >
-              <img src='/logo.png' alt="logo" className='h-[25px]' /> 
+              <img src='/logo.png' alt="logo" className='h-[20px] md:h-[25px]' /> 
           </a>
           <a 
               href="https://github.com/gonzagramaglia/links" 
-              className='ml-auto mr-[15px] md:ml-[65px]'
+              className='ml-auto mr-[20px] md:mr-[65px]'
               target="_blank"
           >
               <FaGithub size={23} style={{ color: '#a9a6c3' }} />
