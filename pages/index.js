@@ -7,7 +7,7 @@ import { FaGithub } from 'react-icons/fa';
 const Icons = () => {
   const [isHovered, setIsHovered] = useState(null);
 
-  const handleMouseEnter = (index) => {
+  const handleMouseOver = (index) => {
     setIsHovered(index);
   };
 
@@ -24,7 +24,7 @@ const Icons = () => {
             className={`h-[50px] w-[50px] mr-2 ${isHovered === index ? 'hovered' : ''}`}
             src={isHovered === index ? social.hover : social.image}
             alt={social.alt}
-            onMouseEnter={ () => handleMouseEnter(index) }
+            onMouseOver={ () => handleMouseOver(index) }
             onMouseLeave={handleMouseLeave}
           />
         </a>
