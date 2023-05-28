@@ -5,7 +5,11 @@ It's good to see that you have been interested in understanding this repository.
 
 I want to thank Lee Robinson ([leerob.io](https://leerob.io/)) 
 who was my guide in the development adventure of this project, 
-during the **[Building a Linktree Clone! (Next.js, React, Tailwind CSS)](https://www.youtube.com/watch?v=eFzNekhVhmM)** tutorial 👌<br><br><br>
+during the **[Building a Linktree Clone! (Next.js, React, Tailwind CSS)](https://www.youtube.com/watch?v=eFzNekhVhmM)** tutorial 👌
+
+Also thanks to WebDev SHORTS for [this incredible video](https://www.youtube.com/watch?v=aywzn9cf-_U) that helped me 
+achieve the magnificent starry background ✨
+<br><br><br>
 
 
 
@@ -35,16 +39,3 @@ npx create-next-app --tailwind .
 ✔ Would you like to customize the default import alias? … <u>No</u> / Yes
 
 <br>
-#### Dependencies that were used, along with the command to install them:
-
-* **React Three Fiber**
-_Official website: https://github.com/pmndrs/react-three-fiber#readme_ (React renderer for threejs)
-
-* **React Three Drei**
-_Official website: https://github.com/pmndrs/drei#readme_ (a collection of fully functional, ready-made abstractions for @react-three/fiber)
-
-* **Maath**
-_Official website: https://snyk.io/advisor/npm-package/maath#package-footer_ (a collection of useful math helpers, random generators, bits and bobs. The library is mostly meant to be used with three.js)
-```bash
-npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath
-```
