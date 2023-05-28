@@ -35,7 +35,7 @@ const Icons = () => {
 
 function LinkCard({ url, title, image }){
   return (
-    <a href={url} target="_blank" className='flex items-center m-1 pl-2 p-1 w-[50%] sm:w-[90%] rounded-xl hover:shadow-lg hover:shadow-[#20bb9a] hover:scale-105 transition-all border border-gray-300' >
+    <a href={url} target="_blank" className='flex items-center m-1 pl-2 p-1 w-[80%] 2xl:w-[50%] rounded-xl hover:shadow-lg hover:shadow-[#20bb9a] hover:scale-105 transition-all border border-gray-300' >
       <div className='flex flex-row items-center'>
         <img src={image} className='h-[50px] w-[50px] mr-2'/>
         <h2 className='font-bold text-lg'>{title}</h2>
