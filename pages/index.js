@@ -50,10 +50,10 @@ export default function Home() {
           <title>Links</title>
           <link rel='icon' href='/react-logo.png'/>
       </Head>
-      <nav className='w-full h-[110px] flex items-center bg-[#050816]'>
+      <nav className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816]'>
           <a 
               href="https://www.gonza.uno/" 
-              className='pl-[65px]'
+              className='ml-[15px] md:ml-[65px]'
               target="_blank"
 
           >
@@ -61,7 +61,7 @@ export default function Home() {
           </a>
           <a 
               href="https://github.com/gonzagramaglia/links" 
-              className='ml-auto mr-[65px]'
+              className='ml-auto mr-[15px] md:ml-[65px]'
               target="_blank"
           >
               <FaGithub size={23} style={{ color: '#a9a6c3' }} />
