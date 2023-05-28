@@ -37,7 +37,7 @@ function LinkCard({ url, title, image }){
     <a href={url} target="_blank" className='flex items-center m-1 pl-2 p-1 w-[80%] xl:w-[50%] rounded-xl hover:shadow-lg hover:shadow-[#20bb9a] hover:scale-105 transition-all border border-gray-300' >
       <div className='flex flex-row items-center'>
         <img src={image} className='h-[50px] w-[50px] mr-2'/>
-        <h2 className='font-bold text-sm xl:text-lg'>{title}</h2>
+        <h2 className='font-semibold text-sm xl:text-lg'>{title}</h2>
       </div>
     </a>
   )
