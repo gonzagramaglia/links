@@ -87,12 +87,22 @@ export default function Home() {
         <div className='flex flex-row m-8'>
         <Icons />
         </div>
-          <section class="wrapper">
+        <section class="wrapper">
           <div id="stars"></div>
           <div id="stars2"></div>
           <div id="stars3"></div>
         </section>
       </div>
+      <style jsx>{`
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+          #stars,
+          #stars2,
+          #stars3 {
+            display: none;
+          }
+        }
+      `}</style>
     </>
   )
 }
