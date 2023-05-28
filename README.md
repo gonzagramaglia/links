@@ -13,9 +13,9 @@ achieve the magnificent starry background ✨
 
 
 
-📌 **LIVE DEMO [UNDER CONSTRUCTION]: _https://links.gonza.uno/_**
+📌 **LIVE DEMO: _https://links.gonza.uno/_**
 
-[![Blog Demo Preview](https://i.postimg.cc/3JCZXcrT/under-construction.png)](https://i.postimg.cc/3JCZXcrT/under-construction.png)
+[![Blog Demo Preview](https://i.postimg.cc/TPgB5xyj/links-demo.png)](https://i.postimg.cc/TPgB5xyj/links-demo.png)
 
 <br><br><br>
 
