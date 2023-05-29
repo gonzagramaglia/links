@@ -1,4 +1,4 @@
-## Hey, I'm **[gonza](https://www.gonza.uno/)**
+## Hey, I'm **[gonza](https://www.gonza.gr/)**
 It's good to see that you have been interested in understanding this repository.<br><br>
 
 
@@ -13,7 +13,7 @@ achieve the magnificent starry background ✨
 
 
 
-📌 **LIVE DEMO: _https://links.gonza.uno/_**
+📌 **LIVE DEMO: _https://links.gonza.gr/_**
 
 [![Blog Demo Preview](https://i.postimg.cc/sgsv7wXt/links-demo.png)](https://i.postimg.cc/sgsv7wXt/links-demo.png)
 
