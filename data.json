@@ -1,20 +1,20 @@
  {
-    "name": "gonza",
-    "avatar": "https://i.postimg.cc/76dRJD2q/profile-picture-gonza-gramaglia.jpg",
-    "description": "React Developer",
+    "name": "Gonza",
+    "avatar": "https://ibb.co/BCP9Sng",
+    "description": "[Former] React Developer",
     "links": [
         {
-            "title": "Visit my website",
-            "url": "https://www.gonza.gr",
+            "title": "Visit my Website",
+            "url": "https://www.gonza.works",
             "image": "/website-logo.png"
         },
         {
-            "title": "Download my CV",
-            "url": "https://cv.gonza.gr/",
+            "title": "Check my new Blog!",
+            "url": "https://gonzacloud.blog/",
             "image": "/download-logo.png"
         },
         {
-            "title": "Let's schedule a call",
+            "title": "Let's Schedule a Call",
             "url": "https://cal.com/gonza",
             "image": "/videocall-logo.png"
         }
@@ -36,7 +36,7 @@
         },
         {
             "title": "Twitter",
-            "url": "https://twitter.com/gonzagramaglia",
+            "url": "https://twitter.com/gonzacloud",
             "image": "/twitter-logo.png",
             "hover": "/twitter-logo-hover.png",
             "alt": "twitter-icon"
