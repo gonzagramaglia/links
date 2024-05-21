@@ -15,4 +15,4 @@ achieve the magnificent starry background ✨
 
 📌 **LIVE DEMO: _https://links.gonza.works/_**
 
-[![Blog Demo Preview](https://i.postimg.cc/sgsv7wXt/links-demo.png)](https://i.postimg.cc/sgsv7wXt/links-demo.png)
+[![Blog Demo Preview](https://i.ibb.co/2yXXFZ0/links-demo.png)](https://i.ibb.co/2yXXFZ0/links-demo.png)
