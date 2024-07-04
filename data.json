@@ -5,12 +5,12 @@
     "links": [
         {
             "title": "Visit my Website",
-            "url": "https://www.gonza.works",
+            "url": "https://gonza.gr",
             "image": "/website-logo.png"
         },
         {
             "title": "Check my new Blog!",
-            "url": "https://gonzacloud.blog/",
+            "url": "https://blog.gonza.gr/",
             "image": "/download-logo.png"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
             "title": "Twitter",
-            "url": "https://twitter.com/gonzacloud",
+            "url": "https://twitter.com/gonzagramaglia",
             "image": "/twitter-logo.png",
             "hover": "/twitter-logo-hover.png",
             "alt": "twitter-icon"

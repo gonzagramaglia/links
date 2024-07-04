@@ -51,7 +51,7 @@ export default function Home() {
       </Head>
       <nav className='w-full h-[80px] md:h-[110px] flex items-center bg-[#050816]'>
           <a 
-              href="https://www.gonza.works/" 
+              href="https://front.gonza.gr/" 
               className='ml-[20px] md:ml-[65px]'
               target="_blank"
 
